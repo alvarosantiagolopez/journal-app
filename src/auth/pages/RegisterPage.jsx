@@ -34,7 +34,7 @@ export const RegisterPage = () => {
                         <TextField
                             label="Password"
                             type="password"
-                            placeholder="Password"
+                            placeholder="********"
                             fullWidth
                         />
 
@@ -50,7 +50,7 @@ export const RegisterPage = () => {
                     </Grid>
 
                     <Grid container direction="row" justifyContent="end">
-                        <Typography sx={{ mr: 1 }}> Do you have an account? </Typography>
+                        <Typography sx={{ mr: 1 }}> Already registered? </Typography>
                         <Link component={RouterLink} color="inherit" to="/auth/login">
                             login
                         </Link>
