@@ -22,7 +22,7 @@ export const LoginPage = () => {
     });
 
 
-    const isAuthenticating = useMemo(() => status === 'cheacking', [status]);
+    const isAuthenticating = useMemo(() => status === 'checking', [status]);
 
 
     const onSubmit = (event) => {
