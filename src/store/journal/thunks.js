@@ -1,7 +1,7 @@
 import { collection, doc, setDoc } from 'firebase/firestore/lite';
 import { FireBaseDB } from '../../firebase/config';
 import { addNewEmptyNote, savingNewNote, setActiveNote, setNotes } from './';
-import { loadNotes } from '../../helpers/loadNotes';
+import { loadNotes } from '../../helpers';
 
 
 export const startNewNote = () => {
