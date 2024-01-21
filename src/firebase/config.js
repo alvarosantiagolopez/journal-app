@@ -49,7 +49,6 @@ const firebaseConfig = {
     measurementId: VITE_MEASUREMENTID
 };
 
-console.log(firebaseConfig)
 
 // Initialize Firebase
 export const FirebaseApp = initializeApp(firebaseConfig);
