@@ -3183,6 +3183,11 @@ domexception@^4.0.0:
   dependencies:
     webidl-conversions "^7.0.0"
 
+dotenv@^16.3.2:
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.2.tgz#3cb611ce5a63002dbabf7c281bc331f69d28f03f"
+  integrity sha512-HTlk5nmhkm8F6JcdXvHIzaorzCoziNQT9mGxLPVXW8wJF1TiGSL60ZGB4gHWabHOaMmWmhvk2/lPHfnBiT78AQ==
+
 electron-to-chromium@^1.4.601:
   version "1.4.616"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.616.tgz#4bddbc2c76e1e9dbf449ecd5da3d8119826ea4fb"
